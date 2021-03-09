@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Inconsolata', monospace;
-  background: var(--peach);
+  background: white;
   color: var(--darkBlue);
 }
 
@@ -140,4 +140,72 @@ ul {
     cursor: pointer;
     color: #ffdd40;
   }
+}
+
+main {
+  min-height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: var(--peach);
+  border-radius: 2rem;
+  z-index: 2;
+  display: flex;
+}
+
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+
+.profile {
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+  vertical-align: middle;
+  border-right: 5px solid white;
+  padding: 3rem;
+}
+
+.profile-pic {
+  min-height: 18vh;
+  min-width: 18vh;
+  border-radius: 7rem;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: double 4px #668ad8;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .6s;
+}
+
+.btn:hover {
+  color: white;
+  background: #668ad8;
+  border: double 4px white;
 }

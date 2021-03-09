@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function PhotosComponent() {
+const PhotosComponent: React.FC = () => {
     return (
         <div>
 
         </div>
     )
 }
+
+export default PhotosComponent;

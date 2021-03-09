@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DietComponent: React.FC = () => {
+const ContactComponent: React.FC = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const DietComponent: React.FC = () => {
     )
 }
 
-export default DietComponent;
+export default ContactComponent;

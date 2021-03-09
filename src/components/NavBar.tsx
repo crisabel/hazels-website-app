@@ -31,6 +31,11 @@ const NavBar: React.FC = () => {
                             Photos
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to="/contact" className="nav-links">
+                            Contact
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
