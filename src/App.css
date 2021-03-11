@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Inconsolata', monospace;
-  background: white;
+  background: var(--peach);
   color: var(--darkBlue);
 }
 
@@ -142,51 +142,10 @@ ul {
   }
 }
 
-main {
-  min-height: 100vh;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.glass {
-  background: white;
-  min-height: 80vh;
-  width: 60%;
-  background: var(--peach);
-  border-radius: 2rem;
-  z-index: 2;
-  display: flex;
-}
-
-.dashboard {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  text-align: center;
-  background: linear-gradient(
-    to right bottom,
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  border-radius: 2rem;
-}
-
-.profile {
-  width: 30%;
-  height: 100%;
-  justify-content: center;
-  vertical-align: middle;
-  border-right: 5px solid white;
-  padding: 3rem;
-}
-
 .profile-pic {
-  min-height: 18vh;
-  min-width: 18vh;
-  border-radius: 7rem;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
 }
 
 .btn{
@@ -205,7 +164,7 @@ main {
 }
 
 .btn:hover {
-  color: white;
-  background: #668ad8;
+  background: #668ad8;;
   border: double 4px white;
+  color: white;
 }

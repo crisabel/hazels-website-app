@@ -17,8 +17,8 @@ const NavBar: React.FC = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/about" className="nav-links">
-                            About Me
+                        <Link to="/blog" className="nav-links">
+                            Blog
                         </Link>
                     </li>
                     <li className="nav-item">
